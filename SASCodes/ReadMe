@@ -1,0 +1,17 @@
+
+This folder consists of all the raw input data files used, and SAS codes used to perform various data processing activities. 
+Comments have been added to SAS code files for reference and ease of understanding. 
+
+
+SAS code files description: 
+
+1_Data_Import : Imports all raw input data files taken from different sources and websites
+2_Data_Merging : Merges variables from the above data sides based on the month and year variable
+3_Data_Manipulation : Imputation of missing records, and changing data types etc. 
+4_Exploratory_Data_Analysis : Trend charts and map distribution of commercial and non-commercial vehicles.
+5_Data_Modeling : Panel regression using Proc Panel separately for Obama and Trump tenures and also for commercial and passenger traffic.
+Symposium_media_articles_whitehouse_scraping_script.ipynb : Python script for web scraping White house press releases related to 
+border immigration.
+Symposium_weather_wunderground_scraping_script.ipynb : Python script for web scraping weather data for all port of entries.
+WhiteHouse_Articles_Text_Mining.xml : SAS Enterprise Miner Diagram for Text Mining of White House Media Articles
+Rest of the files in this folder are raw input data files, filenames chosen judiciously.
